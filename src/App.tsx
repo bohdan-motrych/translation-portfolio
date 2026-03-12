@@ -1,9 +1,11 @@
-import './App.css'
+
+import { useTranslation } from 'react-i18next';
 
 function App() {
 
+  const { t, i18n } = useTranslation();
 
-  document.title = 'Bohdan Motrych | C2 English ↔ Ukrainian Technical Translator';
+  document.title = t('title');
   
   return (
     <>
