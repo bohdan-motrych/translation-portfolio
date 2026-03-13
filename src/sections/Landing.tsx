@@ -5,8 +5,8 @@ function Landing () {
 
 
     return (
-        <section>
-            
+        <section className={styles.landing}>
+            s
         </section>
     )
 }

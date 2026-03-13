@@ -1,3 +1,24 @@
 {
-    "title": "Bohdan Motrych | C2 English ↔ Ukrainian Technical Translator"
+    "title": "Bohdan Motrych | C2 English ↔ Ukrainian Technical Translator",
+    "header": {
+        
+    },
+    "landing": {
+
+    },
+    "info": {
+        "aboutMe": {
+            "title": "About Me",
+            "language": "Language skills: "
+        },    
+        "aboutWork": {
+            "title": "About work with me"
+        }
+    },
+    "samples": {
+        "heading": "Samples"
+    },
+    "footer": {
+
+    }
 }
