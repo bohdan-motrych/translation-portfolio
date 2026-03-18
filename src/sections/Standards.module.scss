@@ -1,13 +1,11 @@
-$heading: color-mix(in srgb, var(--primary), white 15%);
-
 .standards {
     display: flex;
     flex-direction: column;
     h2 {
-        color: $heading;
+        color: var(--secondary);
     }
     span {
-        color: $heading;
+        color: var(--secondary);
         font-size: 1.15em;
     }
     b {
@@ -16,7 +14,7 @@ $heading: color-mix(in srgb, var(--primary), white 15%);
     ul {
         padding: 0 !important;
         > :nth-child(-n+3) {
-            border-right: 1px solid $heading;
+            border-right: 1px solid var(--secondary);
         }
         li li {
             border-right: none !important;
@@ -47,5 +45,5 @@ $heading: color-mix(in srgb, var(--primary), white 15%);
     margin-right: 0.8rem;
     transform: translateY(4px);
 
-    fill: var(--primary);
+    fill: var(--secondary);
 }

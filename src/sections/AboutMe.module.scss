@@ -1,6 +1,6 @@
 .aboutMe {
     color: var(--text-white);
-    background-color: var(--primary);
+    background: radial-gradient(circle, var(--primary) 40%, var(--accent-dark) 100%);
     display: flex;
     flex-direction: column;
 }

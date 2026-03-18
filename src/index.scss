@@ -1,3 +1,6 @@
+$light-blue: #203fd9;
+$dark-blue: #1f3ac4;
+
 :root {
   --text: #070708;
   --text-inverse: #d5dbe1;
@@ -5,9 +8,10 @@
   --text-white: #d5dbe1;
 
   --background: #d5dbe1;
-  --primary: #203fd9;
-  --secondary: #7389e7;
-  --accent: #001685;
+  --primary: #{$light-blue};
+  --secondary: color-mix(in srgb, #{$light-blue}, black 10%);
+  --accent-dark: color-mix(in srgb, #{$light-blue}, black 15%);
+  --accent-light: color-mix(in srgb, #{$light-blue}, white 15%);
   --border: #a6b4bf;
 }
 
@@ -20,9 +24,10 @@
   --text-white: #f7f7f8;
   
   --background: #1e242a;
-  --primary: #2644df;
-  --secondary: #182d8c;
-  --accent: #7a91ff;
+  --primary: #{$dark-blue};
+  --secondary: color-mix(in srgb, #{$dark-blue}, white 10%);
+  --accent-dark: color-mix(in srgb, #{$dark-blue}, black 15%);
+  --accent-light: color-mix(in srgb, #{$dark-blue}, white 15%);
   --border: #414e59;
 }}
 
