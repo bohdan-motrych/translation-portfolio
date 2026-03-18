@@ -1,34 +1,43 @@
+$light-white: #d5dbe1;
+$light-gray: #a6b4bf;
+$light-black: #070708;
 $light-blue: #203fd9;
+
+$dark-white: #f7f7f8;
+$dark-gray: #414e59;
+$dark-black: #1e242a;
 $dark-blue: #1f3ac4;
 
-:root {
-  --text: #070708;
-  --text-inverse: #d5dbe1;
-  --text-black: #070708;
-  --text-white: #d5dbe1;
+@mixin color() {
+  --secondary: color-mix(in srgb, var(--primary), black 10%);
+  --accent-dark: color-mix(in srgb, var(--primary), black 15%);
+  --accent-light: color-mix(in srgb, var(--primary), white 15%);
+}
 
-  --background: #d5dbe1;
+:root {
+  --text: #{$light-black};
+  --text-inverse: #{$light-white};
+  --text-black: #{$light-black};
+  --text-white: #{$light-white};
+
+  --bg: #{$light-white};
   --primary: #{$light-blue};
-  --secondary: color-mix(in srgb, #{$light-blue}, black 10%);
-  --accent-dark: color-mix(in srgb, #{$light-blue}, black 15%);
-  --accent-light: color-mix(in srgb, #{$light-blue}, white 15%);
-  --border: #a6b4bf;
+  --border: #{$light-gray};
+  @include color();
 }
 
 @media (prefers-color-scheme: dark) {
   
 :root {
-  --text: #f7f7f8;
-  --text-inverse: #1e242a;
-  --text-black: #1e242a;
-  --text-white: #f7f7f8;
+  --text: #{$dark-white};
+  --text-inverse: #{$dark-black};
+  --text-black: #{$dark-black};
+  --text-white: #{$dark-white};
   
-  --background: #1e242a;
+  --bg: #{$dark-black};
   --primary: #{$dark-blue};
-  --secondary: color-mix(in srgb, #{$dark-blue}, white 10%);
-  --accent-dark: color-mix(in srgb, #{$dark-blue}, black 15%);
-  --accent-light: color-mix(in srgb, #{$dark-blue}, white 15%);
-  --border: #414e59;
+  --border: #{$dark-gray};
+  @include color();
 }}
 
 $font-size: 1.35rem;
@@ -40,7 +49,7 @@ $font-size: 1.35rem;
 
 html {
   color: var(--text);
-  background-color: var(--background);
+  background-color: var(--bg);
   
   font-family: Arial, Helvetica, sans-serif;
   @include spacing(0, 0);
