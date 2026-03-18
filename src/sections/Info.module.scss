@@ -1,4 +1,49 @@
+@mixin list-spacing(){
+    display: flex;
+    flex-direction: column;
+}
+
+$heading: color-mix(in srgb, var(--primary), white 15%);
+
 .aboutMe {
     color: var(--text-white);
     background-color: var(--primary);
+    @include list-spacing();
+}
+
+.aboutWork {
+    @include list-spacing();
+    h2 {
+        color: $heading;
+    }
+    span {
+        color: $heading;
+        font-size: 1.15em;
+    }
+    b {
+        font-weight: bolder;
+    }
+    ul {
+        padding: 0 !important;
+        > :nth-child(-n+3) {
+            border-right: 1px solid $heading;
+        }
+        li li {
+            border-right: none !important;
+        }
+    }
+    > div > ul {
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: 330px 330px 330px 330px;
+        justify-content: center;
+        > li {
+            text-align: center;
+            margin-top: 0 !important;
+        }
+        ul li {
+            padding: 0 55px;
+            text-align: left;
+        }
+    }
 }

@@ -9,10 +9,30 @@
     "info": {
         "aboutMe": {
             "title": "About Me",
-            "language": "Language skills: "
+            "languages": "<b>Languages</b>:",
+            "ukrainian": "Ukrainian — <b>Native</b>, Excellent Writing Skills",
+            "english": "English — Certified <b>C2</b> (Cambridge Certificate in Advanced English, Grade A)",
+            "catTools": "<b>CAT Tools</b>:",
+            "trados": "Trados (Studio, MultiTerm)",
+            "smartcat": "Smartcat",
+            "specialisation": "<b>Specialisation</b>:",
+            "technical": "Technical Translation",
+            "additional": "<b>Additional Skills</b>:",
+            "localisation": "Software & App Localisation (<b>L10n</b>)",
+            "mtpe": "Machine Translation Post-Editing (<b>MTPE</b>)",
+            "glossary": "Glossary & Terminology Management",
+            "dtp": "Typesetting & Desktop Publishing (<b>DTP</b>)"
         },    
         "aboutWork": {
-            "title": "About work with me"
+            "title": "Professional Standards",
+            "reliability.title": "<s><b>Reliability</b></s>",
+            "reliability": "Delivering high-quality work that aligns with industry standards",
+            "confidentiality.title": "<s><b>Confidentiality</b></s>",
+            "confidentiality": "Adherence to non-disclosure protocols, ensuring the integrity and security of sensitive data",
+            "deadlines.title": "<s><b>Punctuality</b></s>",
+            "deadlines": "Following pre-agreed deadlines and managing workload effectively",
+            "b2b.title": "<s><b>B2B</b></s>",
+            "b2b": "Official cooperation via registered individual entrepreneurship (<b>FOP</b>)"
         }
     },
     "samples": {
