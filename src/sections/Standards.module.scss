@@ -1,18 +1,8 @@
-@mixin list-spacing(){
-    display: flex;
-    flex-direction: column;
-}
-
 $heading: color-mix(in srgb, var(--primary), white 15%);
 
-.aboutMe {
-    color: var(--text-white);
-    background-color: var(--primary);
-    @include list-spacing();
-}
-
-.aboutWork {
-    @include list-spacing();
+.standards {
+    display: flex;
+    flex-direction: column;
     h2 {
         color: $heading;
     }
@@ -46,4 +36,16 @@ $heading: color-mix(in srgb, var(--primary), white 15%);
             text-align: left;
         }
     }
+}
+
+.icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 1lh;
+    margin-right: 0.8rem;
+    transform: translateY(4px);
+
+    fill: var(--primary);
 }

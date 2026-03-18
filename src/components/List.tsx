@@ -1,10 +1,12 @@
-import styles from './List.module.scss'
+import styles from './List.module.scss';
+import type { ReactNode } from 'react';
 import type { ParseKeys } from 'i18next';
-import { Trans } from 'react-i18next'
+import { Trans } from 'react-i18next';
 
 export interface ListItem {
     id: number;
     text: ParseKeys;
+    icon?: ReactNode;
     subItems?: ListItem[];
 }
 
@@ -19,6 +21,7 @@ export default function List({items}: ListProps){
             <ul>
                 {items.map(item => (
                     <li key={item.id} className="list-item">
+                        {item.icon}
                         <Trans i18nKey={item.text} components={{b: <b />, s: <span />}}/>
                         {item.subItems && item.subItems.length > 0 && (
                             <ul>

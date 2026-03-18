@@ -1,4 +1,4 @@
-import styles from './Samples.module.scss'
+import styles from './Samples.module.scss';
 
 function Samples () {
 

@@ -23,14 +23,14 @@
             "glossary": "Glossary & Terminology Management",
             "dtp": "Typesetting & Desktop Publishing (<b>DTP</b>)"
         },    
-        "aboutWork": {
+        "standards": {
             "title": "Professional Standards",
             "reliability.title": "<s><b>Reliability</b></s>",
             "reliability": "Delivering high-quality work that aligns with industry standards",
             "confidentiality.title": "<s><b>Confidentiality</b></s>",
             "confidentiality": "Adherence to non-disclosure protocols, ensuring the integrity and security of sensitive data",
-            "deadlines.title": "<s><b>Punctuality</b></s>",
-            "deadlines": "Following pre-agreed deadlines and managing workload effectively",
+            "punctuality.title": "<s><b>Punctuality</b></s>",
+            "punctuality": "Following pre-agreed deadlines and managing workload effectively",
             "b2b.title": "<s><b>B2B</b></s>",
             "b2b": "Official cooperation via registered individual entrepreneurship (<b>FOP</b>)"
         }
