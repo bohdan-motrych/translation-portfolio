@@ -1,4 +1,4 @@
-$light-white: #d5dbe1;
+$light-white: #c9d1da;
 $light-gray: #a6b4bf;
 $light-black: #070708;
 $light-blue: #203fd9;
@@ -8,8 +8,8 @@ $dark-gray: #414e59;
 $dark-black: #1e242a;
 $dark-blue: #1f3ac4;
 
-@mixin color() {
-  --secondary: color-mix(in srgb, var(--primary), black 10%);
+@mixin color($mode-inverse-color) {
+  --secondary: color-mix(in srgb, var(--primary), #{$mode-inverse-color} 10%);
   --accent-dark: color-mix(in srgb, var(--primary), black 15%);
   --accent-light: color-mix(in srgb, var(--primary), white 15%);
 }
@@ -23,7 +23,7 @@ $dark-blue: #1f3ac4;
   --bg: #{$light-white};
   --primary: #{$light-blue};
   --border: #{$light-gray};
-  @include color();
+  @include color(black);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -37,7 +37,7 @@ $dark-blue: #1f3ac4;
   --bg: #{$dark-black};
   --primary: #{$dark-blue};
   --border: #{$dark-gray};
-  @include color();
+  @include color(white);
 }}
 
 $font-size: 1.35rem;

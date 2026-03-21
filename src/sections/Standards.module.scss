@@ -14,7 +14,7 @@
     ul {
         padding: 0 !important;
         > :nth-child(-n+3) {
-            border-right: 1px solid var(--secondary);
+            border-right: 2px solid var(--secondary);
         }
         li li {
             border-right: none !important;
