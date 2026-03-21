@@ -10,12 +10,12 @@ $gradient-colour: #3500a6;
     animation: gradient 15s infinite ease-in;
 }
 
-@property --g5-1-x-position { syntax: "<percentage>"; inherits: false; initial-value: 1.0937500000000024%; }
-@property --g5-1-y-position { syntax: "<percentage>"; inherits: false; initial-value: 0%; }
-@property --g5-2-x-position { syntax: "<percentage>"; inherits: false; initial-value: 15.312500000000002%; }
-@property --g5-2-y-position { syntax: "<percentage>"; inherits: false; initial-value: 85.46875%; }
-@property --g5-3-x-position { syntax: "<percentage>"; inherits: false; initial-value: 97.1875%; }
-@property --g5-3-y-position { syntax: "<percentage>"; inherits: false; initial-value: 48.515625%; }
+@property --g5-1-x-position { syntax: "<percentage>"; inherits: false; initial-value: 1.0937500000000024%; };
+@property --g5-1-y-position { syntax: "<percentage>"; inherits: false; initial-value: 0%; };
+@property --g5-2-x-position { syntax: "<percentage>"; inherits: false; initial-value: 15.312500000000002%; };
+@property --g5-2-y-position { syntax: "<percentage>"; inherits: false; initial-value: 85.46875%; };
+@property --g5-3-x-position { syntax: "<percentage>"; inherits: false; initial-value: 97.1875%; };
+@property --g5-3-y-position { syntax: "<percentage>"; inherits: false; initial-value: 48.515625%; };
 
 :root {
 --g5-1-x-position: 1.0937500000000024%

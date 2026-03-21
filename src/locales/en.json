@@ -25,14 +25,22 @@
         },    
         "standards": {
             "title": "Professional Standards",
-            "reliability.title": "<s><b>Reliability</b></s>",
-            "reliability": "Delivering high-quality work that aligns with industry standards",
-            "confidentiality.title": "<s><b>Confidentiality</b></s>",
-            "confidentiality": "Adherence to non-disclosure protocols, ensuring the integrity and security of sensitive data",
-            "punctuality.title": "<s><b>Punctuality</b></s>",
-            "punctuality": "Following pre-agreed deadlines and managing workload effectively",
-            "b2b.title": "<s><b>B2B</b></s>",
-            "b2b": "Official cooperation via registered individual entrepreneurship (<b>FOP</b>)"
+            "reliability": {
+                "title": "<span><b>Reliability</b></span>",
+                "desc": "Delivering high-quality work that aligns with industry standards"
+            },
+            "punctuality": {
+                "title": "<span><b>Punctuality</b></span>",
+                "desc": "Following pre-agreed deadlines and managing workload effectively"
+            },
+            "confidentiality": {
+                "title": "<span><b>Confidentiality</b></span>",
+                "desc": "Adherence to non-disclosure protocols, ensuring the integrity and security of sensitive data"
+            },
+            "b2b": {
+                "title": "<span><b>B2B</b></span>",
+                "desc": "Official cooperation via registered individual entrepreneurship (<b>FOP</b>)"
+            }
         }
     },
     "samples": {

@@ -22,11 +22,11 @@ export default function List({items}: ListProps){
                 {items.map(item => (
                     <li key={item.id} className="list-item">
                         {item.icon}
-                        <Trans i18nKey={item.text} components={{b: <b />, s: <span />}}/>
+                        <Trans i18nKey={item.text} components={{b: <b />, span: <span />}}/>
                         {item.subItems && item.subItems.length > 0 && (
                             <ul>
                                 {item.subItems.map(subItem => (
-                                    <li key={subItem.id} className="list-subitem"><Trans i18nKey={subItem.text} components={{b: <b />, s: <span />}}/></li>
+                                    <li key={subItem.id} className="list-subitem"><Trans i18nKey={subItem.text} components={{b: <b />, span: <span />}}/></li>
                                 ))}
                             </ul>
                         )}</li>

@@ -3,8 +3,8 @@ import { useTranslation } from 'react-i18next';
 import List from '../components/List';
 import type { ListItem } from '../components/List';
 import Reliability from '../assets/reliability.svg?react';
-import Confidentiality from '../assets/confidentiality.svg?react';
 import Punctuality from '../assets/punctuality.svg?react';
+import Confidentiality from '../assets/confidentiality.svg?react';
 import B2B from '../assets/b2b.svg?react';
 
 function Standards() {
@@ -13,16 +13,16 @@ function Standards() {
 
     const listStandards: ListItem[] = [
         {id: 1, icon: <Reliability className={styles.icon}/>, text: 'info.standards.reliability.title', subItems: [
-            {id: 1.1, text: 'info.standards.reliability'}
+            {id: 1.1, text: 'info.standards.reliability.desc'}
         ]},
-        {id: 2, icon: <Confidentiality className={styles.icon}/>, text: 'info.standards.confidentiality.title', subItems: [
-            {id: 2.1, text: 'info.standards.confidentiality'}
+        {id: 2, icon: <Punctuality className={styles.icon}/>, text: 'info.standards.punctuality.title', subItems: [
+            {id: 2.1, text: 'info.standards.punctuality.desc'}
         ]},
-        {id: 3, icon: <Punctuality className={styles.icon}/>, text: 'info.standards.punctuality.title', subItems: [
-            {id: 3.1, text: 'info.standards.punctuality'}
+        {id: 3, icon: <Confidentiality className={styles.icon}/>, text: 'info.standards.confidentiality.title', subItems: [
+            {id: 3.1, text: 'info.standards.confidentiality.desc'}
         ]},
         {id: 4, icon: <B2B className={styles.icon}/>, text: 'info.standards.b2b.title', subItems: [
-            {id: 4.1, text: 'info.standards.b2b'}
+            {id: 4.1, text: 'info.standards.b2b.desc'}
         ]}
     ]
 
