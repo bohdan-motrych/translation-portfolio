@@ -27,8 +27,8 @@ function Standards() {
     ]
 
     return (
-        <section className={styles.standards} aria-labelledby='professional-standards'>
-            <h2 id='professional-standards'>{t('info.standards.title')}</h2>
+        <section className={styles.standards} aria-labelledby='standards'>
+            <h2 id='standards'>{t('info.standards.title')}</h2>
             <List items={listStandards}/>
         </section>
     )

@@ -28,8 +28,8 @@ function AboutMe() {
     ]
 
     return (
-        <section className={styles.aboutMe} aria-labelledby='about-me'>
-            <h2 id='about-me'>{t('info.aboutMe.title')}</h2>
+        <section className={styles.aboutMe} aria-labelledby='about'>
+            <h2 id='about'>{t('info.aboutMe.title')}</h2>
             <List items={listAboutMe}/>
         </section>
     )

@@ -6,11 +6,12 @@ header {
 
     border-bottom: 1px solid var(--border);
     box-sizing: border-box;
-    background-color: var(--bg);
     width: 100vw;
+    height: 68px;
     margin: 0;
     padding: 0.8lh 12vw;
-    font-size: 1.1rem;
+
+    background-color: var(--bg);
     
     display: flex;
     flex-direction: row;
@@ -26,4 +27,36 @@ header {
 
 nav {
     margin-left: 6vw;
+    font-size: 1.4rem;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.8rem;
+
+    * {
+        cursor: pointer;
+    }
+}
+
+.toggles {
+    font-size: 1.4rem;
+    font-weight: bold;
+
+    padding: 9px 15px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+    cursor: pointer;
+
+    svg {
+        width: 0.8lh;
+        height: 0.8lh;
+        fill: var(--text);
+    }
 }

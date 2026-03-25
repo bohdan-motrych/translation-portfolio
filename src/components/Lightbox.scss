@@ -8,9 +8,9 @@
     box-sizing: border-box;
     background-color: var(--bg);
     width: 100vw;
+    height: 68px;
     margin: 0;
     padding: 0.65lh 12vw;
-    font-size: 1.1rem;
     
     display: flex;
     flex-direction: row;
@@ -30,6 +30,7 @@
 
     span {
         font-size: 1rem;
+        color: var(--text);
     }
 }
 .lightbox-icon {
@@ -68,9 +69,9 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    gap: 0.65lh;
-    padding-left: 0.8lh;
-    padding-right: 0.8lh;
+    gap: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
     border-left: 1px solid color-mix(in srgb, var(--border) 70%, white 30%);
     border-right: 1px solid color-mix(in srgb, var(--border) 70%, white 30%);
     margin: auto 0.5lh;
@@ -87,7 +88,7 @@
 }
 
 .PhotoView__Photo {
-  padding-top: 68px;
+  padding-top: 69px;
 }
 
 .PhotoView-Slider__Backdrop {

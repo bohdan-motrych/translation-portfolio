@@ -6,6 +6,12 @@
     "landing": {
 
     },
+    "nav": {
+        "about": "About",
+        "standards": "Standards",
+        "samples": "Samples",
+        "contacts": "Contacts"
+    },
     "info": {
         "aboutMe": {
             "title": "About Me",

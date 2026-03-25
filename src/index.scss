@@ -58,7 +58,7 @@ html {
   @include spacing(0, 0);
 
   scroll-behavior: smooth;
-  scroll-padding-top: 100px;
+  scroll-padding-top: 90px;
 
   * {
     box-sizing: border-box;
@@ -96,7 +96,7 @@ h3 {
 }
 
 .logo {
-  height: 1.6lh;
+  height: 1.7lh;
   fill: var(--primary);
   stroke-width: 0;
 }
