@@ -1,5 +1,5 @@
 import styles from './Header.module.scss';
-import Logo from '../assets/logo.svg?react';
+import LogoMain from '../assets/LogoMain.svg?react';
 
 function Header () {
 
@@ -8,7 +8,7 @@ function Header () {
     return (
         <header>
             <div className={styles.logonav}>
-                <Logo className={styles.logo}/>
+                <LogoMain className="logo"/>
                 <nav>
                     placeholder
                 </nav>

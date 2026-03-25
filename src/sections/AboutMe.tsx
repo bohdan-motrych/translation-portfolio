@@ -17,19 +17,19 @@ function AboutMe() {
             {id: 2.2, text: 'info.aboutMe.smartcat'}
         ]},
         {id: 3, text: 'info.aboutMe.specialisation', subItems: [
-            {id: 3.1, text: 'info.aboutMe.technical'}
+            {id: 3.1, text: 'info.aboutMe.technical'},
+            {id: 3.2, text: 'info.aboutMe.localisation'}
         ]},
         {id: 4, text: 'info.aboutMe.additional', subItems: [
-            {id: 4.1, text: 'info.aboutMe.localisation'},
-            {id: 4.2, text: 'info.aboutMe.mtpe'},
-            {id: 4.3, text: 'info.aboutMe.glossary'},
-            {id: 4.4, text: 'info.aboutMe.dtp'}
+            {id: 4.1, text: 'info.aboutMe.mtpe'},
+            {id: 4.2, text: 'info.aboutMe.glossary'},
+            {id: 4.3, text: 'info.aboutMe.dtp'}
         ]},
     ]
 
     return (
-        <section className={styles.aboutMe}>
-             <h2>{t('info.aboutMe.title')}</h2>
+        <section className={styles.aboutMe} aria-labelledby='about-me'>
+            <h2 id='about-me'>{t('info.aboutMe.title')}</h2>
             <List items={listAboutMe}/>
         </section>
     )

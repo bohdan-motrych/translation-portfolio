@@ -5,8 +5,8 @@ function Landing () {
 
 
     return (
-        <section className={styles.landing}>
-            s
+        <section className={styles.landing} aria-label='Landing'>
+            
         </section>
     )
 }

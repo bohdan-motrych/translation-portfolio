@@ -2,10 +2,10 @@ import styles from './Standards.module.scss';
 import { useTranslation } from 'react-i18next';
 import List from '../components/List';
 import type { ListItem } from '../components/List';
-import Reliability from '../assets/reliability.svg?react';
-import Punctuality from '../assets/punctuality.svg?react';
-import Confidentiality from '../assets/confidentiality.svg?react';
-import B2B from '../assets/b2b.svg?react';
+import Reliability from '../assets/standards/reliability.svg?react';
+import Punctuality from '../assets/standards/punctuality.svg?react';
+import Confidentiality from '../assets/standards/confidentiality.svg?react';
+import B2B from '../assets/standards/b2b.svg?react';
 
 function Standards() {
 
@@ -27,8 +27,8 @@ function Standards() {
     ]
 
     return (
-        <section className={styles.standards}>
-            <h2>{t('info.standards.title')}</h2>
+        <section className={styles.standards} aria-labelledby='professional-standards'>
+            <h2 id='professional-standards'>{t('info.standards.title')}</h2>
             <List items={listStandards}/>
         </section>
     )

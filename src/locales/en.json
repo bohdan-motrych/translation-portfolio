@@ -17,8 +17,8 @@
             "smartcat": "Smartcat",
             "specialisation": "<b>Specialisation</b>:",
             "technical": "Technical Translation",
-            "additional": "<b>Additional Skills</b>:",
             "localisation": "Software & App Localisation (<b>L10n</b>)",
+            "additional": "<b>Additional Skills</b>:",
             "mtpe": "Machine Translation Post-Editing (<b>MTPE</b>)",
             "glossary": "Glossary & Terminology Management",
             "dtp": "Typesetting & Desktop Publishing (<b>DTP</b>)"
@@ -44,7 +44,17 @@
         }
     },
     "samples": {
-        "heading": "Samples"
+        "heading": "Samples",
+        "engUkr": "English → Ukrainian",
+        "ukrEng": "Ukrainian → English",
+        "physics": {
+            "title": "OpenStax University Physics Volume 2",
+            "desc": ""
+        },
+        "statistics": {
+            "title": "OpenStax Introductory Business Statistics 2e",
+            "desc": ""
+        }
     },
     "footer": {
 

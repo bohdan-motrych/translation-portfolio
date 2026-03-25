@@ -1,5 +1,5 @@
-$light-white: #c9d1da;
-$light-gray: #a6b4bf;
+$light-white: #dbe5ee;
+$light-gray: #96a2ab;
 $light-black: #070708;
 $light-blue: #203fd9;
 
@@ -16,14 +16,17 @@ $dark-blue: #1f3ac4;
 
 :root {
   --text: #{$light-black};
-  --text-inverse: #{$light-white};
+  --text-inverse: color-mix(in srgb, #{$light-white}, white 80%);
   --text-black: #{$light-black};
-  --text-white: #{$light-white};
+  --text-white: color-mix(in srgb, #{$light-white}, white 80%);
 
   --bg: #{$light-white};
   --primary: #{$light-blue};
   --border: #{$light-gray};
   @include color(black);
+
+
+  --mixing-color: #000e40;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -68,7 +71,7 @@ body {
 }
 
 section {
-  @include spacing(0, 1.5lh 12vw);
+  @include spacing(0, 1.5lh 5vw);
 }
 
 p, li, span {
@@ -86,4 +89,14 @@ h2 {
   @include spacing(0 0 12px, 0);
   text-align: center;
   font-size: 1.6 * $font-size;
+}
+h3 {
+  text-align: start;
+  font-size: 1.1 * $font-size;
+}
+
+.logo {
+  height: 1.6lh;
+  fill: var(--primary);
+  stroke-width: 0;
 }

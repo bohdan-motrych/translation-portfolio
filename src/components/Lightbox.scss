@@ -1,0 +1,99 @@
+.lightbox-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    border-bottom: 1px solid var(--border);
+    box-sizing: border-box;
+    background-color: var(--bg);
+    width: 100vw;
+    margin: 0;
+    padding: 0.65lh 12vw;
+    font-size: 1.1rem;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lightbox-title {
+    height: 1.6lh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2.4lh;
+
+    flex: 1;
+
+    span {
+        font-size: 1rem;
+    }
+}
+.lightbox-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 0.8lh;
+    width: 0.8lh;
+    fill: var(--text);
+    cursor: pointer;
+}
+
+.lightbox-close {
+    height: 1lh;
+    width: 1lh;
+}
+
+.lightbox-closeWrapper {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lightbox-tools {
+    flex: 0 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lightbox-zoom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0.65lh;
+    padding-left: 0.8lh;
+    padding-right: 0.8lh;
+    border-left: 1px solid color-mix(in srgb, var(--border) 70%, white 30%);
+    border-right: 1px solid color-mix(in srgb, var(--border) 70%, white 30%);
+    margin: auto 0.5lh;
+}
+
+.lightbox-scale {
+    color: var(--text);
+    font-size: 1rem;
+    padding: 0.3lh;
+    background-color: color-mix(in srgb, var(--bg) 85%, black 15%);
+    border: 1px solid var(--border);
+    user-select: none;
+    cursor: pointer;
+}
+
+.PhotoView__Photo {
+  padding-top: 68px;
+}
+
+.PhotoView-Slider__Backdrop {
+  backdrop-filter: blur(4px);
+}
+
+.PhotoView-Slider__BannerWrap {
+    opacity: 1 !important;
+}

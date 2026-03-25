@@ -1,0 +1,35 @@
+.card {
+    background-color: color-mix(in srgb, var(--bg) 80%, var(--mixing-color) 20%);
+
+    padding: 1.5rem 3rem;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    transition: box-shadow 0.3s, transform 0.3s;
+    cursor: pointer;
+
+    h3 {
+        margin: 10px 0;
+    };
+
+    span {
+        opacity: 0.5;
+        font-size: 1.1rem;
+    };
+}
+
+.card:hover {
+        box-shadow: 0 0 0 0.1em var(--secondary);
+        transform: translateY(-10px);
+    }
+
+.thumbnail {
+    align-self: center;
+    width: 100%;
+    aspect-ratio: 17 / 11;
+    object-fit: cover;
+    border-radius: 15px;
+}
