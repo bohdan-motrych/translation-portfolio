@@ -22,7 +22,6 @@
     }
     > div > ul {
         display: grid;
-        grid-auto-flow: column;
         grid-template-columns: 330px 330px 330px 330px;
         justify-content: center;
         > li {
@@ -46,4 +45,31 @@
     transform: translateY(4px);
 
     fill: var(--secondary);
+}
+
+@media (max-width: 1350px) {
+    .standards {
+        ul {
+            padding: 0 !important;
+            > :nth-child(-n+3) {
+                border-right: none;
+                border-bottom: 1px solid var(--secondary);
+                padding-bottom: 15px;
+            }
+            > :nth-child(n+2):nth-child(-n+4) {
+                padding-top: 15px;
+            }
+            li li {
+                border-bottom: none !important;
+            }
+        }
+        
+        > div > ul {
+            display: grid;
+            grid-template-columns: none;
+            > li {
+                width: 330px;
+            }
+        }
+    }
 }
