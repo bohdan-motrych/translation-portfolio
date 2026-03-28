@@ -44,6 +44,9 @@ $dark-blue: #1f3ac4;
 }}
 
 $font-size: 1.35rem;
+$section-v-padding-d: 70px;
+$section-v-padding-m: 50px;
+$header-height: 68px;
 
 @mixin spacing($margin, $padding) {
   margin: $margin;
@@ -58,7 +61,7 @@ html {
   @include spacing(0, 0);
 
   scroll-behavior: smooth;
-  scroll-padding-top: 90px;
+  scroll-padding-top: calc($section-v-padding-d + $header-height);
 
   * {
     box-sizing: border-box;
@@ -71,7 +74,7 @@ body {
 }
 
 section {
-  @include spacing(0, 1.5lh 5vw);
+  @include spacing(0, $section-v-padding-d 5vw);
 }
 
 p, li, span {
@@ -86,7 +89,7 @@ ul {
 }
 
 h2 {
-  @include spacing(0 0 12px, 0);
+  @include spacing(0 0 20px, 0);
   text-align: center;
   font-size: 1.6 * $font-size;
 }
@@ -99,4 +102,14 @@ h3 {
   height: 1.7lh;
   fill: var(--primary);
   stroke-width: 0;
+}
+
+@media (max-width: 1350px) {
+  html {
+    scroll-padding-top: calc($section-v-padding-m + $header-height);
+  }
+
+  section {
+    @include spacing(0, $section-v-padding-m 5vw)
+  }
 }

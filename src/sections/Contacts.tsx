@@ -5,8 +5,8 @@ function Contacts () {
 
 
     return (
-        <section className={styles.contacts} aria-label='Contacts' id="contacts">
-
+        <section className={styles.contacts} aria-label='Contacts'>
+            <div id="contacts"></div>
         </section>
     )
 }
