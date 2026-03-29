@@ -1,0 +1,54 @@
+.toggle {
+    position: relative;
+    display: inline-block;
+
+    svg {
+        width: 0.8lh;
+        height: 0.8lh;
+        margin-left: 8px;
+        transform: translateY(3px);
+        fill: var(--text);
+    }
+
+    * {
+        background-color: var(--bg);
+        color: var(--text);
+        font-size: 1.4rem;
+    }
+}
+
+.button {
+    font-weight: bold;
+
+    border: none;
+
+    padding: 10px;
+    width: 100%;
+
+    cursor: pointer;
+}
+
+.options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+
+    border: 1px solid var(--border);
+    border-top: none;
+    list-style: none;
+
+    padding: 0;
+    margin: 0;
+    z-index: 10;
+}
+
+.option {
+    padding: 10px;
+    cursor: pointer;
+
+    &.selected {
+        background-color: color-mix(in srgb, var(--bg) 70%, black 30%);
+        font-weight: bold;
+    }
+}

@@ -53,14 +53,8 @@
         "heading": "Samples",
         "engUkr": "English → Ukrainian",
         "ukrEng": "Ukrainian → English",
-        "physics": {
-            "title": "OpenStax University Physics Volume 2",
-            "desc": ""
-        },
-        "statistics": {
-            "title": "OpenStax Introductory Business Statistics 2e",
-            "desc": ""
-        }
+        "physics": "OpenStax University Physics Volume 2",
+        "statistics": "OpenStax Introductory Business Statistics 2e"
     },
     "footer": {
         "copyright": "© 2026 Bohdan Motrych. All rights reserved. Third-party content used under respective open-access licenses."

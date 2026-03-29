@@ -19,12 +19,13 @@
         opacity: 0.5;
         font-size: 1.1rem;
     };
-}
 
-.card:hover {
+    &:hover {
         box-shadow: 0 0 0 0.1em var(--secondary);
         transform: translateY(-10px);
     }
+}
+
 
 .thumbnail {
     align-self: center;

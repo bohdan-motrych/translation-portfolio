@@ -2,7 +2,6 @@ import styles from './Header.module.scss';
 import Nav from '../components/Nav.tsx';
 import LanguageToggle from '../components/LanguageToggle.tsx';
 import LogoMain from '../assets/LogoMain.svg?react';
-import DropdownIcon from '../assets/header/dropdown.svg?react';
 import type { Anchors } from "../components/Nav.tsx";
 import { useTranslation } from 'react-i18next';
 
@@ -23,9 +22,7 @@ function Header () {
                 <LogoMain className="logo"/>
                 <Nav anchors={anchors}/>
             </div>
-            <div className={styles.toggles}>
-                <span>English</span><DropdownIcon/>
-            </div>
+            <LanguageToggle/>
         </header>
     )
 }

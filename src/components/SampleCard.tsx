@@ -29,7 +29,7 @@ export default function SampleCard(props: SampleCard) {
             <div className="lightbox-bar">
                 <div className="lightbox-title">
                     <LogoMain className="logo"/>
-                    <span>{props.title}</span>
+                    <span>{props.desc}</span>
                 </div>
                 <div className="lightbox-tools">
                     <RotateLeft onClick={() => onRotate(rotate - 90)} className="lightbox-icon"/>
@@ -50,7 +50,6 @@ export default function SampleCard(props: SampleCard) {
                 <div className={styles.card}>
                     <img src={props.thumb} loading="lazy" decoding="async" className={styles.thumbnail}/>
                     <h3>{props.title}</h3>
-                    <p>{props.desc}</p>
                     <span>{props.pair}</span>
                 </div>
             </PhotoView>
