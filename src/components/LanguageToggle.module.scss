@@ -28,6 +28,16 @@
     cursor: pointer;
 }
 
+.button, .option {
+    transition: color ease-in-out 0.1s;
+    &:hover {
+        color: var(--secondary);
+        svg {
+            fill: var(--secondary);
+        }
+    }
+}
+
 .options {
     position: absolute;
     top: 100%;

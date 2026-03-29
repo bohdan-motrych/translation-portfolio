@@ -6,59 +6,11 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
-    span {
-        font-size: 0.8rem;
-        color: color-mix(in srgb, var(--text) 50%, black 50%);
-    }
 }
 
-.links {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 15px;
-}
-
-.icon {
-    height: 1.6lh;
-    width: 1.6lh;
-    fill: color-mix(in srgb, var(--text) 50%, black 50%);
-    cursor: pointer;
-    path {
-        height: 100% !important;
-    }
-}
-
-.linkedin, .proz, .smartcat, .github {
-    * {
-        transition: fill 0.15s ease-in-out;
-    }
-} 
-
-.linkedin:hover {
-    * {
-        fill: #0077b7;
-    }
-}
-
-.proz:hover {
-    * {
-        fill: #00695c;
-    }
-}
-
-.smartcat:hover {
-    * {
-        fill: #734dab;
-    }
-}
-
-.github:hover {
-    * {
-        fill: var(--text);
-    }
+.copyrights {
+    font-size: 0.8rem;
+    color: color-mix(in srgb, var(--text) 50%, black 50%);
 }
 
 @media (max-width: 900px) {

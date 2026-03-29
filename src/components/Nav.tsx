@@ -1,4 +1,5 @@
-
+import styles from './Nav.module.scss';
+import { useState } from 'react';
 
 export interface Anchors {
     id: number;
@@ -12,18 +13,32 @@ interface Nav {
 
 export default function Nav({anchors}: Nav) {
 
+    const [isOpen, setIsOpen] = useState(false);
+
     const scrollToElement = (id: string) => {
       const element = document.getElementById(id);
       if (element) {
         element.scrollIntoView();
       }
+      setIsOpen(false);
     }
     
     return (
-        <nav>
-            {anchors.map((anchor) => (
-                <a key={anchor.id} onClick={(event) => {event.preventDefault(); scrollToElement(anchor.scroll);}}>{anchor.text}</a>
-            ))}
-        </nav>
+        <div className={styles.navContainer}>
+            <button 
+                className={`${styles.navButton} ${isOpen ? styles.open : ''}`} 
+                onClick={() => setIsOpen(!isOpen)}
+                aria-label="Toggle navigation menu"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav className={`${isOpen ? styles.open : ''}`}>
+                {anchors.map((anchor) => (
+                    <a key={anchor.id} onClick={(event) => {event.preventDefault(); scrollToElement(anchor.scroll);}}>{anchor.text}</a>
+                ))}
+            </nav>
+        </div>
     )
 }

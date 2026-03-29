@@ -12,41 +12,39 @@
         "samples": "Samples",
         "contacts": "Contacts"
     },
-    "info": {
-        "aboutMe": {
-            "title": "About Me",
-            "languages": "<b>Languages</b>:",
-            "ukrainian": "Ukrainian — <b>Native</b>, Excellent Writing Skills",
-            "english": "English — Certified <b>C2</b> (Cambridge Certificate in Advanced English, Grade A)",
-            "catTools": "<b>CAT Tools</b>:",
-            "trados": "Trados (Studio, MultiTerm)",
-            "smartcat": "Smartcat",
-            "specialisation": "<b>Specialisation</b>:",
-            "technical": "Technical Translation",
-            "localisation": "Software & App Localisation (<b>L10n</b>)",
-            "additional": "<b>Additional Skills</b>:",
-            "mtpe": "Machine Translation Post-Editing (<b>MTPE</b>)",
-            "glossary": "Glossary & Terminology Management",
-            "dtp": "Typesetting & Desktop Publishing (<b>DTP</b>)"
-        },    
-        "standards": {
-            "title": "Professional Standards",
-            "reliability": {
-                "title": "<span><b>Reliability</b></span>",
-                "desc": "Delivering high-quality work that aligns with industry standards"
-            },
-            "punctuality": {
-                "title": "<span><b>Punctuality</b></span>",
-                "desc": "Following pre-agreed deadlines and managing workload effectively"
-            },
-            "confidentiality": {
-                "title": "<span><b>Confidentiality</b></span>",
-                "desc": "Adherence to non-disclosure protocols, ensuring the integrity and security of sensitive data"
-            },
-            "b2b": {
-                "title": "<span><b>B2B</b></span>",
-                "desc": "Official cooperation via registered individual entrepreneurship (<b>FOP</b>)"
-            }
+    "aboutMe": {
+        "title": "About Me",
+        "languages": "<b>Languages</b>:",
+        "ukrainian": "Ukrainian — <b>Native</b>, Excellent Writing Skills",
+        "english": "English — Certified <b>C2</b> (Cambridge Certificate in Advanced English, Grade A)",
+        "catTools": "<b>CAT Tools</b>:",
+        "trados": "Trados (Studio, MultiTerm)",
+        "smartcat": "Smartcat",
+        "specialisation": "<b>Specialisation</b>:",
+        "technical": "Technical Translation",
+        "localisation": "Software & App Localisation (<b>L10n</b>)",
+        "additional": "<b>Additional Skills</b>:",
+        "mtpe": "Machine Translation Post-Editing (<b>MTPE</b>)",
+        "glossary": "Glossary & Terminology Management",
+        "dtp": "Typesetting & Desktop Publishing (<b>DTP</b>)"
+    },    
+    "standards": {
+        "title": "Professional Standards",
+        "reliability": {
+            "title": "<span><b>Reliability</b></span>",
+            "desc": "Delivering high-quality work that aligns with industry standards"
+        },
+        "punctuality": {
+            "title": "<span><b>Punctuality</b></span>",
+            "desc": "Following pre-agreed deadlines and managing workload effectively"
+        },
+        "confidentiality": {
+            "title": "<span><b>Confidentiality</b></span>",
+            "desc": "Adherence to non-disclosure protocols, ensuring the integrity and security of sensitive data"
+        },
+        "b2b": {
+            "title": "<span><b>B2B</b></span>",
+            "desc": "Official cooperation via registered individual entrepreneurship (<b>FOP</b>)"
         }
     },
     "samples": {
@@ -55,6 +53,16 @@
         "ukrEng": "Ukrainian → English",
         "physics": "OpenStax University Physics Volume 2",
         "statistics": "OpenStax Introductory Business Statistics 2e"
+    },
+    "contacts": {
+        "interested": "Interested in cooperation?",
+        "contactMe": "<span>Contact Me</span> today!",
+        "form" : {
+            "name": "Your name:",
+            "email": "Your email:",
+            "subject": "Subject of your message...",
+            "message": "Your message..."
+        }
     },
     "footer": {
         "copyright": "© 2026 Bohdan Motrych. All rights reserved. Third-party content used under respective open-access licenses."

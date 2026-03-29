@@ -2,7 +2,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 5;
+    z-index: 9;
 
     border-bottom: 1px solid var(--border);
     box-sizing: border-box;
@@ -22,22 +22,8 @@ header {
 .logonav {
     display: flex;
     flex-direction: row;
-    align-items: center;
-}
-
-nav {
-    margin-left: 6vw;
-    font-size: 1.4rem;
-    
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 1.8rem;
-
-    * {
-        cursor: pointer;
-    }
 }
 
 .toggles {
@@ -50,7 +36,12 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
 
     cursor: pointer;
+}
+
+@media (max-width: 1050px) {
+    .logonav {
+        justify-content: s;
+    }
 }

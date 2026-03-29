@@ -8,28 +8,28 @@ function AboutMe() {
     const {t} = useTranslation();
 
     const listAboutMe: ListItem[] = [
-        {id: 1, text: 'info.aboutMe.languages', subItems: [
-            {id: 1.1, text: 'info.aboutMe.ukrainian'},
-            {id: 1.2, text: 'info.aboutMe.english'}, 
+        {id: 1, text: 'aboutMe.languages', subItems: [
+            {id: 1.1, text: 'aboutMe.ukrainian'},
+            {id: 1.2, text: 'aboutMe.english'}, 
         ]},
-        {id: 2, text: 'info.aboutMe.catTools', subItems: [
-            {id: 2.1, text: 'info.aboutMe.trados'},
-            {id: 2.2, text: 'info.aboutMe.smartcat'}
+        {id: 2, text: 'aboutMe.catTools', subItems: [
+            {id: 2.1, text: 'aboutMe.trados'},
+            {id: 2.2, text: 'aboutMe.smartcat'}
         ]},
-        {id: 3, text: 'info.aboutMe.specialisation', subItems: [
-            {id: 3.1, text: 'info.aboutMe.technical'},
-            {id: 3.2, text: 'info.aboutMe.localisation'}
+        {id: 3, text: 'aboutMe.specialisation', subItems: [
+            {id: 3.1, text: 'aboutMe.technical'},
+            {id: 3.2, text: 'aboutMe.localisation'}
         ]},
-        {id: 4, text: 'info.aboutMe.additional', subItems: [
-            {id: 4.1, text: 'info.aboutMe.mtpe'},
-            {id: 4.2, text: 'info.aboutMe.glossary'},
-            {id: 4.3, text: 'info.aboutMe.dtp'}
+        {id: 4, text: 'aboutMe.additional', subItems: [
+            {id: 4.1, text: 'aboutMe.mtpe'},
+            {id: 4.2, text: 'aboutMe.glossary'},
+            {id: 4.3, text: 'aboutMe.dtp'}
         ]},
     ]
 
     return (
         <section className={styles.aboutMe} aria-labelledby='about'>
-            <h2 id='about'>{t('info.aboutMe.title')}</h2>
+            <h2 id='about'>{t('aboutMe.title')}</h2>
             <List items={listAboutMe}/>
         </section>
     )

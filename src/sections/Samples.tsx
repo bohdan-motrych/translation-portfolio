@@ -17,9 +17,9 @@ function Samples () {
             <div>
                 <SampleCard title={t('samples.physics')} desc={t('samples.physics')} pair={t('samples.engUkr')} thumb={PhysicsThumb} img={Physics}/>
                 <SampleCard title={t('samples.statistics')} desc={t('samples.statistics')} pair={t('samples.engUkr')} thumb={StatisticsThumb} img={Statistics}/>
-                <SampleCard title={t('samples.statistics')} desc={t('samples.statistics')} pair={t('samples.engUkr')} thumb='' img=''/>
-                <SampleCard title={t('samples.statistics')} desc={t('samples.statistics')} pair={t('samples.ukrEng')} thumb='' img=''/>
-                <SampleCard title={t('samples.statistics')} desc={t('samples.statistics')} pair={t('samples.ukrEng')} thumb='' img=''/>
+                <SampleCard title={t('samples.statistics')} desc={t('samples.statistics')} pair={t('samples.engUkr')} thumb='null' img='null'/>
+                <SampleCard title={t('samples.statistics')} desc={t('samples.statistics')} pair={t('samples.ukrEng')} thumb='null' img='null'/>
+                <SampleCard title={t('samples.statistics')} desc={t('samples.statistics')} pair={t('samples.ukrEng')} thumb='null' img='null'/>
             </div>
         </section>
     )
