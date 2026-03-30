@@ -107,7 +107,7 @@ $input-color: color-mix(in srgb, var(--text) 60%, black 40%);
 }
 
 .messageData {
-    @include flex-container(column, $internal-gap);
+    @include flex-container(column, 10px);
 }
 
 .userData div, .messageData div {
@@ -134,11 +134,7 @@ $input-color: color-mix(in srgb, var(--text) 60%, black 40%);
     .userData {
         flex-direction: column;
     }
-
-    .messageData {
-        gap: 10px;
-    }
-
+    
     .messageSubject {
         width: 80% !important;
     }
