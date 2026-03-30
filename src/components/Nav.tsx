@@ -1,4 +1,5 @@
 import styles from './Nav.module.scss';
+import PlatformsLinks from './PlatformsLinks';
 import { useState } from 'react';
 
 export interface Anchors {
@@ -38,6 +39,7 @@ export default function Nav({anchors}: Nav) {
                 {anchors.map((anchor) => (
                     <a key={anchor.id} onClick={(event) => {event.preventDefault(); scrollToElement(anchor.scroll);}}>{anchor.text}</a>
                 ))}
+                <div className={styles.linksContainer}><PlatformsLinks/></div>
             </nav>
         </div>
     )

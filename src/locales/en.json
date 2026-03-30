@@ -71,7 +71,6 @@
         "submit": "Submit"
     },
     "footer": {
-        "copyright": "© 2026 Bohdan Motrych. All rights reserved. Third-party content used under respective open-access licenses.",
-        "stack": "Built with React. Hosted on GitHub."
+        "copyright": "© 2026 Bohdan Motrych. All rights reserved. Developed by Bohdan Motrych using React. Third-party content used under respective open-access licenses."
     }
 }

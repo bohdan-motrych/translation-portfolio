@@ -26,7 +26,7 @@ function Contacts () {
                 <div className={styles.messageData}>
                     <label htmlFor="message-subject" className={styles.subjectLabel}>{t('contacts.label.subject')}</label>
                     <label htmlFor="message-content">{t('contacts.label.message')}</label>
-                    <input type="text" id="message-subject" name="subject" placeholder={t('contacts.placeholder.subject')} className={styles.messageSubject}/>
+                    <input type="text" id="message-subject" name="subject" placeholder={t('contacts.placeholder.subject')} className={styles.messageSubject} required/>
                     <textarea id="message-content" name="message" placeholder={t('contacts.placeholder.message')} rows={5} required/>
                 </div>
                 

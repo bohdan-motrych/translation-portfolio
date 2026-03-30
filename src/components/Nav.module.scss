@@ -12,6 +12,10 @@
     display: none;
 }
 
+.linksContainer {
+    display: none;
+}
+
 nav {
     font-size: 1.4rem;
     
@@ -93,6 +97,13 @@ nav {
         transform: translateX(0);
         opacity: 1;
         visibility: visible;
+    }
+
+    .linksContainer {
+        display: block;
+        position: absolute;
+        bottom: 40px;
+        left: 12vw;
     }
 
     .navButton.open span {

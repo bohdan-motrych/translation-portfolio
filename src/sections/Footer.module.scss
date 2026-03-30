@@ -11,6 +11,7 @@ footer {
 .copyrights {
     font-size: 0.8rem;
     color: color-mix(in srgb, var(--text) 50%, black 50%);
+    scroll-snap-align: start;
 }
 
 @media (max-width: 900px) {
