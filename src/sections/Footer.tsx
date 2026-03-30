@@ -8,7 +8,7 @@ function Footer () {
 
     return (
         <footer>
-            <span className={styles.copyrights}>{t('footer.copyright')}</span>
+            <span className={styles.copyrights}>{t('footer.copyrights')}</span>
             <PlatformsLinks/>
         </footer>
     )

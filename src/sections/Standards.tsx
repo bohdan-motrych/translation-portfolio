@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import List from '../components/List';
 import type { ListItem } from '../components/List';
 import Reliability from '../assets/standards/reliability.svg?react';
-import Punctuality from '../assets/standards/punctuality.svg?react';
+import Timeliness from '../assets/standards/timeliness.svg?react';
 import Confidentiality from '../assets/standards/confidentiality.svg?react';
 import B2B from '../assets/standards/b2b.svg?react';
 
@@ -15,8 +15,8 @@ function Standards() {
         {id: 1, icon: <Reliability className={styles.icon}/>, text: 'standards.reliability.title', subItems: [
             {id: 1.1, text: 'standards.reliability.desc'}
         ]},
-        {id: 2, icon: <Punctuality className={styles.icon}/>, text: 'standards.punctuality.title', subItems: [
-            {id: 2.1, text: 'standards.punctuality.desc'}
+        {id: 2, icon: <Timeliness className={styles.icon}/>, text: 'standards.timeliness.title', subItems: [
+            {id: 2.1, text: 'standards.timeliness.desc'}
         ]},
         {id: 3, icon: <Confidentiality className={styles.icon}/>, text: 'standards.confidentiality.title', subItems: [
             {id: 3.1, text: 'standards.confidentiality.desc'}

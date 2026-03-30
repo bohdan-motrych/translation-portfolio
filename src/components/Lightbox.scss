@@ -31,6 +31,11 @@
     span {
         font-size: 1rem;
         color: var(--text);
+        white-space: pre-wrap;
+        a {
+            color: var(--secondary);
+            font-weight: bold;
+        }
     }
 }
 .lightbox-icon {

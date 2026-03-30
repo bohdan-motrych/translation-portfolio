@@ -1,16 +1,13 @@
 {
     "title": "Bohdan Motrych | C2 English ↔ Ukrainian Technical Translator",
-    "header": {
-        
-    },
-    "landing": {
-
-    },
     "nav": {
         "about": "About",
         "standards": "Standards",
         "samples": "Samples",
         "contacts": "Contacts"
+    },
+    "landing": {
+        "welcome": "Hello!\nI am <span>Bohdan</span>,\nTranslator & Localisator"
     },
     "aboutMe": {
         "title": "About Me",
@@ -34,13 +31,13 @@
             "title": "<span><b>Reliability</b></span>",
             "desc": "Delivering high-quality work that aligns with industry standards"
         },
-        "punctuality": {
-            "title": "<span><b>Punctuality</b></span>",
+        "timeliness": {
+            "title": "<span><b>Timeliness</b></span>",
             "desc": "Following pre-agreed deadlines and managing workload effectively"
         },
         "confidentiality": {
             "title": "<span><b>Confidentiality</b></span>",
-            "desc": "Adherence to non-disclosure protocols, ensuring the integrity and security of sensitive data"
+            "desc": "Adherence to non-disclosure agreements, ensuring the integrity and security of all data"
         },
         "b2b": {
             "title": "<span><b>B2B</b></span>",
@@ -52,7 +49,13 @@
         "engUkr": "English → Ukrainian",
         "ukrEng": "Ukrainian → English",
         "physics": "OpenStax University Physics Volume 2",
-        "statistics": "OpenStax Introductory Business Statistics 2e"
+        "statistics": "OpenStax Introductory Business Statistics 2e",
+        "flying": "FAA Helicopter Flying Handbook",
+        "dstu": "",
+        "portfolio": {
+            "title": "JSON Files for React Portfolio",
+            "desc": "Localisation files of <b>this</b> portfolio.\nMore is available <a>here</a>"
+        }
     },
     "contacts": {
         "contactMe": "Interested in my work?\n<span>Contact Me!</span>",
@@ -71,6 +74,6 @@
         "submit": "Submit"
     },
     "footer": {
-        "copyright": "© 2026 Bohdan Motrych. All rights reserved. Developed by Bohdan Motrych using React. Third-party content used under respective open-access licenses."
+        "copyrights": "© 2026 Bohdan Motrych. All rights reserved. Developed by Bohdan Motrych using React. Third-party content used under respective open-access licenses."
     }
 }

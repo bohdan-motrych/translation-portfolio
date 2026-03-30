@@ -14,6 +14,7 @@ $dark-blue: #1f3ac4;
   --accent-light: color-mix(in srgb, var(--primary), white 15%);
 }
 
+/* Light Mode TBD
 :root {
   --text: #{$light-black};
   --text-inverse: color-mix(in srgb, #{$light-white}, white 80%);
@@ -24,13 +25,8 @@ $dark-blue: #1f3ac4;
   --primary: #{$light-blue};
   --border: #{$light-gray};
   @include color(black);
+} */
 
-
-  --mixing-color: #000e40;
-}
-
-@media (prefers-color-scheme: dark) {
-  
 :root {
   --text: #{$dark-white};
   --text-inverse: #{$dark-black};
@@ -41,7 +37,9 @@ $dark-blue: #1f3ac4;
   --primary: #{$dark-blue};
   --border: #{$dark-gray};
   @include color(white);
-}}
+
+  --mixing-color: #000e40;
+}
 
 $font-size: 1.35rem;
 $section-v-padding-d: 70px;
@@ -77,6 +75,7 @@ body {
 
 section {
   @include spacing(0, $section-v-padding-d 5vw);
+  white-space: pre-wrap;
 }
 
 p, li, span {

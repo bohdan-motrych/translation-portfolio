@@ -1,6 +1,7 @@
 import styles from "./SampleCard.module.scss";
 import "./Lightbox.scss";
 import 'react-photo-view/dist/react-photo-view.css';
+import type { ReactNode } from 'react';
 import { PhotoProvider, PhotoView } from "react-photo-view";
 import LogoMain from "../assets/LogoMain.svg?react";
 import ZoomIn from "../assets/lightbox/ZoomIn.svg?react";
@@ -10,9 +11,9 @@ import RotateRight from "../assets/lightbox/RotateRight.svg?react"
 import Close from "../assets/lightbox/Close.svg?react";
 
 interface SampleCard {
-    title: string;
-    desc: string;
-    pair: string;
+    title: string | ReactNode;
+    desc: string | ReactNode;
+    pair: string | ReactNode;
     thumb: string;
     img: string;
 
