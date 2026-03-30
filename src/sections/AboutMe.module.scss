@@ -8,6 +8,7 @@ $gradient-color: #3500a6;
     color: var(--text-white);
     display: flex;
     flex-direction: column;
+    min-height: calc(100vh - 68px);
 
     background: radial-gradient( 100% 100% at var(--g5-1-x-position) var(--g5-1-y-position), $gradient-color -52%, transparent ), radial-gradient( 100% 100% at var(--g5-2-x-position) var(--g5-2-y-position), color-mix(in oklch, var(--accent-light), $gradient-color) 0%, transparent ), radial-gradient( 100% 100% at var(--g5-3-x-position) var(--g5-3-y-position), var(--accent-light) 0%, transparent ), #000000;
 

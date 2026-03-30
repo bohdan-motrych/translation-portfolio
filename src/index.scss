@@ -62,6 +62,7 @@ html {
 
   scroll-behavior: smooth;
   scroll-padding-top: calc($section-v-padding-d + $header-height);
+  scroll-snap-type: y proximity;
 
   * {
     box-sizing: border-box;
@@ -71,6 +72,7 @@ html {
 body {
   display: block;
   @include spacing(0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
 
 section {
@@ -83,15 +85,32 @@ p, li, span {
   line-height: 1.5;
 }
 
+a {
+  text-decoration: none;
+}
+
 ul {
   list-style-type: none;
   margin-top: 4px;
+}
+
+#contacts {
+    position: absolute;
+    top: $section-v-padding-d;
+    left: 0;
+    
+    visibility: hidden;
+    width: 10px;
+    height: 10px;
+    scroll-snap-align: start;
 }
 
 h2 {
   @include spacing(0 0 20px, 0);
   text-align: center;
   font-size: 1.6 * $font-size;
+
+  scroll-snap-align: start;
 }
 h3 {
   text-align: start;
@@ -109,6 +128,10 @@ h3 {
     scroll-padding-top: calc($section-v-padding-m + $header-height);
   }
 
+  #contacts {
+    top: $section-v-padding-m;
+  }
+  
   section {
     @include spacing(0, $section-v-padding-m 5vw)
   }

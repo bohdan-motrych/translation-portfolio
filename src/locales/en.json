@@ -55,16 +55,23 @@
         "statistics": "OpenStax Introductory Business Statistics 2e"
     },
     "contacts": {
-        "interested": "Interested in cooperation?",
-        "contactMe": "<span>Contact Me</span> today!",
-        "form" : {
-            "name": "Your name:",
-            "email": "Your email:",
+        "contactMe": "Interested in my work?\n<span>Contact Me!</span>",
+        "label": {
+            "name": "Name",
+            "email": "Email",
+            "subject": "Subject",
+            "message": "Message"
+        },
+        "placeholder" : {
+            "name": "Your name...",
+            "email": "Your email...",
             "subject": "Subject of your message...",
             "message": "Your message..."
-        }
+        },
+        "submit": "Submit"
     },
     "footer": {
-        "copyright": "© 2026 Bohdan Motrych. All rights reserved. Third-party content used under respective open-access licenses."
+        "copyright": "© 2026 Bohdan Motrych. All rights reserved. Third-party content used under respective open-access licenses.",
+        "stack": "Built with React. Hosted on GitHub."
     }
 }
