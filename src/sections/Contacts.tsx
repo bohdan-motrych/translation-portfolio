@@ -10,8 +10,9 @@ function Contacts () {
         <section className={styles.contacts} aria-label="Contacts">
             <div id="contacts"></div>
             <p><Trans i18nKey={'contacts.contactMe'} components={{span: <span/>}}/></p>
-            <form className={styles.form} name="conctact-form" autoComplete="off" method="POST" data-netlify="true">
-                <input type="hidden" name="form-name" value="contact-form"/>
+            <form className={styles.form} name="contact-form" autoComplete="off" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+                <input type="hidden" name="form-name" value="contact"/>
+                <input type="hidden" name="bot-field" />
                 <div className={styles.userData}>
                     <div>
                         <label htmlFor="full-name">{t('contacts.label.name')}</label>
