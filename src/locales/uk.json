@@ -7,7 +7,7 @@
         "contacts": "Контакти"
     },
     "landing": {
-        "welcome": "Вітаю!\nЯ <span>Богдан</span>,\nперекладач і локалізатор"
+        "welcome": "<greeting>Вітаю!</greeting><introduction>Я <name>Богдан</name></introduction><title>перекладач і локалізатор</title>"
     },
     "aboutMe": {
         "title": "Про мене",
@@ -41,7 +41,7 @@
         },
         "b2b": {
             "title": "<span><b>B2B</b></span>",
-            "desc": "Офіційна співпраця через фізичну особу-підприємця (<b>ФОП</b>)"
+            "desc": "Можливість співпраці як фізична особа-підприємець (<b>ФОП</b>)"
         }
     },
     "samples": {
@@ -51,7 +51,7 @@
         "physics": "OpenStax Університетська фізика Том 2",
         "statistics": "OpenStax Вступ до статистики для бізнесу 2e",
         "flying": "FAA Інструкція з управління гелікоптером",
-        "dstu": "",
+        "dstu": "placeholder",
         "portfolio": {
             "title": "Файли JSON для React-портфоліо",
             "desc": "Файли локалізації <b>цього</b> портфоліо.\nБільше доступно <a>тут</a>"

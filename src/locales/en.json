@@ -7,7 +7,7 @@
         "contacts": "Contacts"
     },
     "landing": {
-        "welcome": "Hello!\nI am <span>Bohdan</span>,\nTranslator & Localisator"
+        "welcome": "<greeting>Hello!</greeting><introduction>I'm <name>Bohdan</name></introduction><title>Translator & Localiser</title>"
     },
     "aboutMe": {
         "title": "About Me",
@@ -41,7 +41,7 @@
         },
         "b2b": {
             "title": "<span><b>B2B</b></span>",
-            "desc": "Official cooperation via registered individual entrepreneurship (<b>FOP</b>)"
+            "desc": "Open to working as a sole proprietor (<b>FOP</b>)"
         }
     },
     "samples": {
@@ -51,7 +51,7 @@
         "physics": "OpenStax University Physics Volume 2",
         "statistics": "OpenStax Introductory Business Statistics 2e",
         "flying": "FAA Helicopter Flying Handbook",
-        "dstu": "",
+        "dstu": "placeholder",
         "portfolio": {
             "title": "JSON Files for React Portfolio",
             "desc": "Localisation files of <b>this</b> portfolio.\nMore is available <a>here</a>"

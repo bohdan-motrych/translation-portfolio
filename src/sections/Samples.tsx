@@ -19,7 +19,7 @@ function Samples () {
                 <SampleCard title={t('samples.physics')} desc={t('samples.physics')} pair={t('samples.engUkr')} thumb={PhysicsThumb} img={Physics}/>
                 <SampleCard title={t('samples.statistics')} desc={t('samples.statistics')} pair={t('samples.engUkr')} thumb={StatisticsThumb} img={Statistics}/>
                 <SampleCard title={t('samples.flying')} desc={t('samples.flying')} pair={t('samples.engUkr')} thumb='null' img='null'/>
-                <SampleCard title={t('samples.statistics')} desc={t('samples.statistics')} pair={t('samples.ukrEng')} thumb='null' img='null'/>
+                <SampleCard title={t('samples.dstu')} desc={t('samples.dstu')} pair={t('samples.ukrEng')} thumb='null' img='null'/>
                 <SampleCard title={t('samples.portfolio.title')} desc={<Trans i18nKey={'samples.portfolio.desc'} components={{a: <a href='https://github.com/bohdan-motrych/translation-portfolio' target='_blank' rel='noopener noreferrer'/>, b: <b />}}/>} pair={t('samples.ukrEng')} thumb='null' img='null'/>
             </div>
         </section>

@@ -7,6 +7,18 @@ $input-color: color-mix(in srgb, var(--text) 60%, black 40%);
     gap: $gap;
 }
 
+@keyframes text-gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 .contacts {
     min-height: calc(100vh - 60px);
     position: relative;
@@ -116,21 +128,18 @@ $input-color: color-mix(in srgb, var(--text) 60%, black 40%);
     @include flex-container(column, 10px);
 }
 
-@keyframes text-gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
 @media (max-width: 600px) {
-    form {
-        gap: $internal-gap !important;
+    .contacts {
+        p {
+            font-size: 1.5rem !important;
+        }
+        span {
+            font-size: 2.625rem !important;
+        }
+    }
+    
+    .form {
+        gap: $internal-gap;
     }
 
     .userData {
