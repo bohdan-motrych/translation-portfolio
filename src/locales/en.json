@@ -50,8 +50,8 @@
         "ukrEng": "Ukrainian → English",
         "physics": "OpenStax University Physics Volume 2",
         "statistics": "OpenStax Introductory Business Statistics 2e",
-        "flying": "FAA Helicopter Flying Handbook",
-        "dstu": "placeholder",
+        "aviation": "FAA Helicopter Flying Handbook",
+        "strategy": "SE Diia Strategic Development Plan",
         "portfolio": {
             "title": "JSON Files for React Portfolio",
             "desc": "Localisation files of <b>this</b> portfolio.\nMore is available <a>here</a>"
@@ -74,6 +74,6 @@
         "submit": "Submit"
     },
     "footer": {
-        "copyrights": "© 2026 Bohdan Motrych. All rights reserved. Developed by Bohdan Motrych using React. Third-party content used under respective open-access licenses."
+        "copyrights": "© 2026 Bohdan Motrych. All rights reserved. Developed by Bohdan Motrych using React. Third-party content used for demonstrative purposes only under respective open-access licenses."
     }
 }

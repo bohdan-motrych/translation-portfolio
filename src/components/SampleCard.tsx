@@ -11,7 +11,7 @@ import RotateRight from "../assets/lightbox/RotateRight.svg?react"
 import Close from "../assets/lightbox/Close.svg?react";
 
 interface SampleCard {
-    title: string | ReactNode;
+    title: string;
     desc: string | ReactNode;
     pair: string | ReactNode;
     thumb: string;
@@ -49,7 +49,7 @@ export default function SampleCard(props: SampleCard) {
         )}}>
             <PhotoView src={props.img}>
                 <div className={styles.card}>
-                    <img src={props.thumb} loading="lazy" decoding="async" className={styles.thumbnail}/>
+                    <img src={props.thumb} loading="lazy" decoding="async" alt={props.title} className={styles.thumbnail}/>
                     <h3>{props.title}</h3>
                     <span>{props.pair}</span>
                 </div>

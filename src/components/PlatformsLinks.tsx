@@ -8,10 +8,10 @@ export default function PlatformsLinks() {
 
     return (
         <div className={styles.links}>
-            <a href='https://www.proz.com/next/profile/4597742/overview' target='_blank' rel='noopener noreferrer' className={styles.proz}><ProZ className={styles.icon}/></a>
-            <a href='https://smartcat.com/marketplace/user/bohdan-motrych-80cf86e6' target='_blank' rel='noopener noreferrer' className={styles.smartcat}><SmartCat className={styles.icon}/></a>
-            <a href='https://github.com/bohdan-motrych' target='_blank' rel='noopener noreferrer' className={styles.github}><GitHub className={styles.icon}/></a>
-            <a href='https://www.linkedin.com/in/bohdan-motrych/' target='_blank' rel='noopener noreferrer' className={styles.linkedin}><LinkedIn className={styles.icon}/></a>
+            <a href='https://www.proz.com/next/profile/4597742/overview' aria-label='ProZ' target='_blank' rel='noopener noreferrer' className={styles.proz}><ProZ className={styles.icon}/></a>
+            <a href='https://smartcat.com/marketplace/user/bohdan-motrych-80cf86e6' aria-label='SmartCat' target='_blank' rel='noopener noreferrer' className={styles.smartcat}><SmartCat className={styles.icon}/></a>
+            <a href='https://github.com/bohdan-motrych' aria-label='GitHub' target='_blank' rel='noopener noreferrer' className={styles.github}><GitHub className={styles.icon}/></a>
+            <a href='https://www.linkedin.com/in/bohdan-motrych/' aria-label='LinkedIn' target='_blank' rel='noopener noreferrer' className={styles.linkedin}><LinkedIn className={styles.icon}/></a>
          </div>
     )
 }
