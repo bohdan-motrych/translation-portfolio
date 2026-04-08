@@ -2,6 +2,8 @@ import styles from './AboutMe.module.scss';
 import { useTranslation } from 'react-i18next';
 import List from '../components/List';
 import type { ListItem } from '../components/List';
+import CAE from '/credentials/Bohdan_Motrych_CAE_C2.pdf?url';
+import LinkIcon from '../assets/LinkIcon.svg?react';
 
 function AboutMe() {
 
@@ -10,7 +12,7 @@ function AboutMe() {
     const listAboutMe: ListItem[] = [
         {id: 1, text: 'aboutMe.languages', subItems: [
             {id: 1.1, text: 'aboutMe.ukrainian'},
-            {id: 1.2, text: 'aboutMe.english'}, 
+            {id: 1.2, text: 'aboutMe.english', button: <a href={CAE} target="_blank" rel="noopener noreferrer"><LinkIcon className='link-icon'/></a>}, 
         ]},
         {id: 2, text: 'aboutMe.catTools', subItems: [
             {id: 2.1, text: 'aboutMe.trados'},

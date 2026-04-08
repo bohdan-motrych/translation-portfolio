@@ -2,10 +2,12 @@ import styles from './Standards.module.scss';
 import { useTranslation } from 'react-i18next';
 import List from '../components/List';
 import type { ListItem } from '../components/List';
+import CertUATI from '/credentials/Bohdan_ Motrych_UATI.pdf?url';
 import Reliability from '../assets/standards/reliability.svg?react';
 import Timeliness from '../assets/standards/timeliness.svg?react';
 import Confidentiality from '../assets/standards/confidentiality.svg?react';
 import B2B from '../assets/standards/b2b.svg?react';
+import UATI from '../assets/standards/uati.svg?react';
 
 function Standards() {
 
@@ -21,8 +23,11 @@ function Standards() {
         {id: 3, icon: <Confidentiality className={styles.icon}/>, text: 'standards.confidentiality.title', subItems: [
             {id: 3.1, text: 'standards.confidentiality.desc'}
         ]},
-        {id: 4, icon: <B2B className={styles.icon}/>, text: 'standards.b2b.title', subItems: [
-            {id: 4.1, text: 'standards.b2b.desc'}
+        {id: 4, icon: <a href={CertUATI} target="_blank" rel="noopener noreferrer"><UATI className={`${styles.icon} ${styles.uati}`}/></a>, text: 'standards.uati.title', subItems: [
+            {id: 4.1, text: 'standards.uati.desc'}
+        ]},
+        {id: 5, icon: <B2B className={styles.icon}/>, text: 'standards.b2b.title', subItems: [
+            {id: 5.1, text: 'standards.b2b.desc'}
         ]}
     ]
 

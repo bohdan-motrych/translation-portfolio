@@ -42,6 +42,10 @@
         "b2b": {
             "title": "<span><b>B2B</b></span>",
             "desc": "Open to working as a sole proprietor (<b>FOP</b>)"
+        },
+        "uati": {
+            "title": "",
+            "desc": "Member of UATI. Adherence to international quality standards (ISO 17100) and professional ethics."
         }
     },
     "samples": {

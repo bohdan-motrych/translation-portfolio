@@ -7,6 +7,7 @@ export interface ListItem {
     id: number;
     text: ParseKeys;
     icon?: ReactNode;
+    button?: ReactNode;
     subItems?: ListItem[];
 }
 
@@ -26,7 +27,7 @@ export default function List({items}: ListProps){
                         {item.subItems && item.subItems.length > 0 && (
                             <ul>
                                 {item.subItems.map(subItem => (
-                                    <li key={subItem.id} className="list-subitem"><Trans i18nKey={subItem.text} components={{b: <b />, span: <span />}}/></li>
+                                    <li key={subItem.id} className="list-subitem"><Trans i18nKey={subItem.text} components={{b: <b />, span: <span />}}/>{subItem.button}</li>
                                 ))}
                             </ul>
                         )}</li>

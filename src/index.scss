@@ -88,6 +88,16 @@ a {
   text-decoration: none;
 }
 
+.link-icon {
+  display: inline;
+  fill: var(--text-white);
+
+  height: 0.8lh;
+  width: 0.8lh;
+  transform: translateY(3px);
+  margin-left: 0.8rem;
+}
+
 ul {
   list-style-type: none;
   margin-top: 4px;
