@@ -6,12 +6,13 @@ import Samples from './sections/Samples';
 import Contacts from './sections/Contacts';
 import Footer from './sections/Footer';
 import { useTranslation } from 'react-i18next';
+import { useEffect } from 'react';
 
 function App() {
 
   const { t } = useTranslation();
 
-  document.title = t('title');
+  useEffect(() => { document.title = t('title') }, [t]);
   
   return (
     <>

@@ -42,8 +42,8 @@ $font-size-mobile: 1.4rem;
     height: 99vh;
 }
 
-.welcome {
-
+h1 {
+    font-weight: normal;
     .greeting {
         display: block;
         font-size: 2.8 * $font-size;
@@ -119,7 +119,7 @@ $font-size-mobile: 1.4rem;
         display: block;
     }
 
-    .welcome {
+    h1 {
         position: absolute;
         top: calc(7dvh + 68px);
         left: 20vw;
